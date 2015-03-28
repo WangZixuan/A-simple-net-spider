@@ -1,6 +1,6 @@
 /**This code is to spider http://www.ifeng.com's top news.
  * @author Zixuan
- * Date 2015-3-
+ * Date 2015-3-28
  */
 import java.io.*;
 import java.net.*;
