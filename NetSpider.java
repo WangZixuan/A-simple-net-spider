@@ -13,18 +13,18 @@ public class NetSpider
 		String line;
 		try 
 		{
-			URL url = new URL("http://www.ifeng.com");
-		    // Open connection to URL for reading.
-		    BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "utf-8"));
-		    // Read page into buffer.		    
-		    pageBuffer = new StringBuffer();
-		    while ((line = reader.readLine()) != null)
-		    	pageBuffer.append(line);
-		    //System.out.println(pageBuffer.toString());
+		 	URL url = new URL("http://www.ifeng.com");
+			// Open connection to URL for reading.
+			 BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "utf-8"));
+			// Read page into buffer.		    
+			 pageBuffer = new StringBuffer();
+			while ((line = reader.readLine()) != null)
+				pageBuffer.append(line);
+		    	//System.out.println(pageBuffer.toString());
 		} 
 		catch (Exception e) 
 		{
-			e.printStackTrace();
+		    	e.printStackTrace();
 		}
 
 		//Split first time.
